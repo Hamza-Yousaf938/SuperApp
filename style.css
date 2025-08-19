@@ -1,0 +1,112 @@
+.navbar {
+    height: 80px;
+    width: 1250px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+/*             home       */
+.home {
+    
+    margin-left: 120px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.home-section  {
+    height: 250px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    /* background-color: lightseagreen; */
+    font: 18px 'Rubik', sans-serif;
+}
+button {
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+.picture {
+    height: 300px;
+    width: 400px;
+    background-color: black;
+     margin-left: 200px;
+    background-image: url("computer.png");
+    background-size: cover;
+}
+/*  features    */
+.features {
+    margin-left: 120px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feature {
+    height: 300px;
+    width: 400px;
+    /* background-color: aqua; */
+    margin-top: 90px;
+    font: 18px 'Rubik', sans-serif;
+     margin-left: 20px;
+}
+.feature h1 {
+    margin-left: 20px;
+}
+.analytic {
+    height: 120px;
+    width: 200px;
+    background-color: black;
+    background-image: url("analytics.png");
+     background-size: cover;
+     margin-left: 30px;
+}
+.analytics {
+     margin-left: 20px;
+}
+.task {
+   height: 120px;
+    width: 200px;
+    background-color: black;
+    background-image: url("task.jpg");
+     background-size: cover;
+     margin-left: 50px;
+      margin-top: 80px;
+}
+.tasks {
+    margin-left: 40px;
+}
+.customization {
+    height: 160px;
+    width: 200px;
+    background-color: black;
+    background-image: url("customize.jpg");
+     background-size: cover;
+     margin-left: 70px;
+     margin-top: 30px;
+}
+.customizations {
+    margin-left: 40px;
+}
+/* testimonial        */
+.testimonial {
+    height: 300px;
+    width: 800px;
+    background-color: aqua;
+    margin-top: 80px;
+    margin-left: 120px;
+     font: 18px 'Rubik', sans-serif;
+}
+#testi {
+    
+    margin-left: 40px;
+}
+#remark {
+    margin-left: 400px;
+}
